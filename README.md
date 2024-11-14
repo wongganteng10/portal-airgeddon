@@ -30,4 +30,4 @@ cd perubahan-airgedon-portal-stabil-v2
 
 ## selesai
 
-**Full Changelog**: https://github.com/wongganteng10/portal-airgeddon/commits/portal-airgeddon
+
