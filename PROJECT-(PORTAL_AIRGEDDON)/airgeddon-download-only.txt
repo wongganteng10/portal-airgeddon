@@ -5,3 +5,14 @@ mkdir -p ~/airgeddon_offline
 cd ~/airgeddon_offline
 
 sudo apt-get reinstall --download-only -o Dir::Cache::archives="./" airgeddon iw gawk aircrack-ng xterm iproute2 pciutils procps bettercap ettercap-text-only dnsmasq hostapd-wpe beef-xss bully nftables pixiewps isc-dhcp-server asleap hashcat hostapd tshark mdk4 hcxdumptool reaver john crunch lighttpd openssl hcxtools -y
+
+
+# cara membuat package agar bisa di pangil lewat local
+mkdir -p ~/airgeddon_offline
+cp ~/package/*.deb ~/airgeddon_offline/
+cd ~/airgeddon_offline
+sudo dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz
+
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.back
+sudo echo "deb [trusted=yes] file:/home/$USER/airgeddon_offline ./" > /etc/apt/sources.list
+sudo apt update
