@@ -1,0 +1,3 @@
+mkdir -p ~/airgeddon_offline
+cd ~/airgeddon_offline
+sudo apt-get reinstall --download-only -o Dir::Cache::archives="./" airgeddon iw gawk aircrack-ng xterm iproute2 pciutils procps bettercap ettercap-text-only dnsmasq hostapd-wpe beef-xss bully nftables pixiewps isc-dhcp-server asleap hashcat hostapd tshark mdk4 hcxdumptool reaver john crunch lighttpd openssl hcxtools -y
