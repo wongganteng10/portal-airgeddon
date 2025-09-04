@@ -16,3 +16,11 @@ sudo dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.back
 sudo echo "deb [trusted=yes] file:/home/$USER/airgeddon_offline ./" > /etc/apt/sources.list
 sudo apt update
+
+
+# ===============================
+# airgeddon kali linux 2025.2
+# ===============================
+mkdir -p ~/airgeddon_offline
+cd ~/airgeddon_offline
+sudo apt-get install --download-only -o Dir::Cache::archives="./" airgeddon aircrack-ng gawk iproute2 iw pciutils procps tmux xterm arping asleap beef-xss bettercap bully ccze crunch dnsmasq ethtool ettercap-text-only hashcat hcxdumptool hcxtools hostapd hostapd-wpe iptables isc-dhcp-server john lighttpd mdk3 mdk4 nftables openssl pixiewps reaver rfkill systemd tcpdump tshark usbutils x11-utils x11-xserver-utils -y
