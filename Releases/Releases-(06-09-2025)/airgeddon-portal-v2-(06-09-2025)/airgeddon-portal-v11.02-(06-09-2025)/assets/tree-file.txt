@@ -1,0 +1,30 @@
+.
+├── assets
+│   ├── backup-portal
+│   ├── file-sh
+│   │   ├── copy-file.sh
+│   │   └── replace-mac-portal.sh
+│   ├── portal
+│   │   ├── backup-folder.1.1
+│   │   │   ├── check.htm
+│   │   │   ├── index.css
+│   │   │   ├── index.htm
+│   │   │   └── index.js
+│   │   ├── backup-folder.1.2
+│   │   │   ├── index.css
+│   │   │   ├── index.htm
+│   │   │   └── index.js
+│   │   ├── backup-folder.1.3
+│   │   │   ├── index.css
+│   │   │   ├── index.htm
+│   │   │   └── index.js
+│   │   └── backup-folder.1.4
+│   │       ├── index.css
+│   │       ├── index.htm
+│   │       └── index.js
+│   ├── scan_results
+│   │   └── scan-01.csv
+│   └── tree-file.txt
+└── utama.sh
+
+9 directories, 18 files
