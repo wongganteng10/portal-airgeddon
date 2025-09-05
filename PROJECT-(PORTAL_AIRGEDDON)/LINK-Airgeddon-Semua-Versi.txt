@@ -1,0 +1,21 @@
+## LINK Airgeddon Semua Versi
+
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_10.40+ds-0kali2_amd64.deb
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_10.41+ds-0kali1_amd64.deb
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_10.42+ds-0kali1_amd64.deb
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.0+ds-0kali1_amd64.deb
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.01+ds-0kali1_amd64.deb
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.02+ds-0kali1_amd64.deb
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.10+ds-0kali1_amd64.deb
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.11+ds-0kali2_amd64.deb
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.20+ds-0kali1_amd64.deb
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.21+ds-0kali1_amd64.deb
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.22-0kali1_amd64.deb
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.30-0kali1_amd64.deb
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.31-0kali1_amd64.deb
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.40-0kali1_amd64.deb
+https://old.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.41-0kali1_amd64.deb
+
+https://http.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.41-0kali1_amd64.deb
+https://http.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.51-0kali1_amd64.changes
+https://http.kali.org/kali/pool/main/a/airgeddon/airgeddon_11.51-0kali1_amd64.deb
