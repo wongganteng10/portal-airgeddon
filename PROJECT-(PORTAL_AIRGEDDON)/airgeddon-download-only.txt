@@ -1,0 +1,29 @@
+
+# airgeddon kali linux 2022.4
+
+mkdir -p ~/airgeddon_offline
+cd ~/airgeddon_offline
+
+sudo apt-get reinstall --download-only -o Dir::Cache::archives="./" airgeddon iw gawk aircrack-ng xterm iproute2 pciutils procps bettercap ettercap-text-only dnsmasq hostapd-wpe beef-xss bully nftables pixiewps isc-dhcp-server asleap hashcat hostapd tshark mdk4 hcxdumptool reaver john crunch lighttpd openssl hcxtools -y
+
+
+# cara membuat package agar bisa di pangil lewat local
+mkdir -p ~/airgeddon_offline
+cp ~/package/*.deb ~/airgeddon_offline/
+cd ~/airgeddon_offline
+sudo dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz
+
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.back
+sudo echo "deb [trusted=yes] file:/home/$USER/airgeddon_offline ./" > /etc/apt/sources.list
+sudo apt update
+
+
+aircrack-ng gawk iproute2 iw pciutils procps tmux xterm arping asleap beef-xss bettercap bully ccze crunch dnsmasq ethtool ettercap-text-only hashcat hcxdumptool hcxtools hostapd hostapd-wpe iptables isc-dhcp-server john lighttpd mdk3 mdk4 nftables openssl pixiewps reaver rfkill systemd tcpdump tshark usbutils x11-utils x11-xserver-utils
+
+# ===============================
+# airgeddon kali linux 2025.2
+# ===============================
+mkdir -p ~/airgeddon_offline
+cd ~/airgeddon_offline
+sudo apt-get install --download-only -o Dir::Cache::archives="./" airgeddon aircrack-ng gawk iproute2 iw pciutils procps tmux xterm arping asleap beef-xss bettercap bully ccze crunch dnsmasq ethtool ettercap-text-only hashcat hcxdumptool hcxtools hostapd hostapd-wpe iptables isc-dhcp-server john lighttpd mdk3 mdk4 nftables openssl pixiewps reaver rfkill systemd tcpdump tshark usbutils x11-utils x11-xserver-utils -y
+
