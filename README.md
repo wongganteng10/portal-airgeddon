@@ -1,13 +1,15 @@
 # portal airgeddon 
 ## download dengan perintah 
 ```
-wget https://github.com/wongganteng10/portal-airgeddon/releases/download/portal-airgeddon/perubahan-airgedon-portal-stabil-v2.zip
+wget https://raw.githubusercontent.com/wongganteng10/portal-airgeddon/refs/heads/main/Releases/airgeddon-portal-v1.2.zip
+
+unzip airgeddon-portal-v1.2.zip
 ```
 
 ## setelah di download extrak file nya dengan perintah 
 ```
-unzip perubahan-airgedon-portal-stabil-v2.zip
-cd perubahan-airgedon-portal-stabil-v2
+unzip airgeddon-portal-v1.2.zip
+cd airgeddon-portal-v1.2
 ```
 
 ## jangan lupa kalau mau menjalankan nya rubah sesuai target 
